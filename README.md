@@ -27,7 +27,7 @@ This lab explores how a digital image can be interpreted as a two-dimensional si
 - The histogram is stretched to cover the full range [0,1].  
 - Enhances visibility of dark or bright regions.
 
-![Histogram differences](Figures/figure_4.png)
+![Histogram differences](Figures/Figure_4.png)
 
 ---
 
