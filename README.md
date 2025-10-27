@@ -9,7 +9,8 @@ This lab explores how a digital image can be interpreted as a two-dimensional si
 - The grayscale image has an 8-bit range (0–255).  
 - Data type and size are printed in the console.
 
-📸 *[Screenshot of both figures]*
+![Original RGB](Figures/Figure_1.png)
+![Gray Scale](Figures/Figure_2.png)
 
 ---
 
@@ -18,8 +19,7 @@ This lab explores how a digital image can be interpreted as a two-dimensional si
 - Reducing bit depth limits the number of intensity levels.  
 - Visible effects: **banding** and **loss of smooth gradients**.
 
-📸 *[Screenshot of montage with 3 images]*
-
+![Quantization](Figures/Figure_3.png)
 ---
 
 ## 2️⃣ Histogram and Contrast Stretching
@@ -27,7 +27,7 @@ This lab explores how a digital image can be interpreted as a two-dimensional si
 - The histogram is stretched to cover the full range [0,1].  
 - Enhances visibility of dark or bright regions.
 
-📸 *[Screenshot showing original vs stretched histogram and images]*
+![Histogram differences](Figures/figure_4.png)
 
 ---
 
@@ -36,7 +36,7 @@ This lab explores how a digital image can be interpreted as a two-dimensional si
 **Gamma > 1:** darkens highlights.  
 - Unlike contrast stretching, gamma correction is **nonlinear** and perceptual.
 
-📸 *[Screenshot showing gamma = 0.6, 1.0, 1.6]*
+![Gamma differences](Figures/Figure_6.png)
 
 ---
 
@@ -45,18 +45,11 @@ This lab explores how a digital image can be interpreted as a two-dimensional si
 - Fine details are lost, producing blocky or repetitive patterns.  
 - According to the **Nyquist theorem**, undersampling causes aliasing artifacts.
 
-📸 *[Screenshot showing original, reduced, and upscaled images]*
+![Sampling](Figures/Figure_7.png)
 
 ---
 
-## 5️⃣ (Optional) Moiré Patterns
-If applied to a striped or textured image, interference (Moiré) patterns appear when sampling frequency is too low.
-
-📸 *[Optional screenshot if tested]*
-
----
-
-## 6️⃣ Reflections
+## 5️⃣ Reflections
 1. Lower bit depth → visible posterization and reduced detail.  
 2. Contrast stretching redistributes intensity values → better visibility.  
 3. Gamma correction changes brightness **nonlinearly**, mimicking human vision.  
